@@ -29,9 +29,9 @@ namespace HTQ_thi
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.search_pnl = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.key_search_text = new System.Windows.Forms.TextBox();
@@ -74,6 +74,7 @@ namespace HTQ_thi
             this.user_ql_text = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.search_pnl.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvnnhanvien)).BeginInit();
@@ -349,22 +350,22 @@ namespace HTQ_thi
             this.dgvnnhanvien.AllowUserToDeleteRows = false;
             this.dgvnnhanvien.AllowUserToResizeColumns = false;
             this.dgvnnhanvien.AllowUserToResizeRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.dgvnnhanvien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.dgvnnhanvien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvnnhanvien.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvnnhanvien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvnnhanvien.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvnnhanvien.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvnnhanvien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvnnhanvien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvnnhanvien.ColumnHeadersHeight = 29;
             this.dgvnnhanvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvnnhanvien.Location = new System.Drawing.Point(12, 479);
@@ -374,8 +375,8 @@ namespace HTQ_thi
             this.dgvnnhanvien.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dgvnnhanvien.RowHeadersVisible = false;
             this.dgvnnhanvien.RowHeadersWidth = 51;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.dgvnnhanvien.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.dgvnnhanvien.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvnnhanvien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvnnhanvien.Size = new System.Drawing.Size(1345, 277);
             this.dgvnnhanvien.TabIndex = 36;
@@ -391,7 +392,7 @@ namespace HTQ_thi
             this.xóaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1370, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1370, 28);
             this.menuStrip1.TabIndex = 38;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -399,21 +400,21 @@ namespace HTQ_thi
             // thêmToolStripMenuItem
             // 
             this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
-            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(60, 26);
+            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
             this.thêmToolStripMenuItem.Text = "Thêm";
             this.thêmToolStripMenuItem.Click += new System.EventHandler(this.thêmToolStripMenuItem_Click);
             // 
             // sửaToolStripMenuItem
             // 
             this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
-            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(52, 26);
+            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
             this.sửaToolStripMenuItem.Text = "Sửa ";
             this.sửaToolStripMenuItem.Click += new System.EventHandler(this.sửaToolStripMenuItem_Click);
             // 
             // xóaToolStripMenuItem
             // 
             this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
-            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(49, 26);
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
             this.xóaToolStripMenuItem.Text = "Xóa";
             this.xóaToolStripMenuItem.Click += new System.EventHandler(this.xóaToolStripMenuItem_Click);
             // 
@@ -487,12 +488,13 @@ namespace HTQ_thi
             this.login_pnl.Controls.Add(this.pass_ql_text);
             this.login_pnl.Controls.Add(this.user_ql_text);
             this.login_pnl.Controls.Add(this.label4);
+            this.login_pnl.Controls.Add(this.label6);
             this.login_pnl.Controls.Add(this.label5);
             this.login_pnl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.login_pnl.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.login_pnl.Location = new System.Drawing.Point(0, 30);
+            this.login_pnl.Location = new System.Drawing.Point(0, 28);
             this.login_pnl.Name = "login_pnl";
-            this.login_pnl.Size = new System.Drawing.Size(1370, 724);
+            this.login_pnl.Size = new System.Drawing.Size(1370, 726);
             this.login_pnl.TabIndex = 46;
             // 
             // error_lb
@@ -501,7 +503,7 @@ namespace HTQ_thi
             this.error_lb.AutoSize = true;
             this.error_lb.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.error_lb.ForeColor = System.Drawing.Color.Red;
-            this.error_lb.Location = new System.Drawing.Point(565, 303);
+            this.error_lb.Location = new System.Drawing.Point(570, 318);
             this.error_lb.Name = "error_lb";
             this.error_lb.Size = new System.Drawing.Size(243, 21);
             this.error_lb.TabIndex = 10;
@@ -514,7 +516,7 @@ namespace HTQ_thi
             this.login_nv_btn.BackColor = System.Drawing.Color.DarkTurquoise;
             this.login_nv_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.login_nv_btn.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.login_nv_btn.Location = new System.Drawing.Point(617, 327);
+            this.login_nv_btn.Location = new System.Drawing.Point(614, 349);
             this.login_nv_btn.Name = "login_nv_btn";
             this.login_nv_btn.Size = new System.Drawing.Size(164, 36);
             this.login_nv_btn.TabIndex = 2;
@@ -526,7 +528,7 @@ namespace HTQ_thi
             // 
             this.pass_ql_text.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pass_ql_text.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.pass_ql_text.Location = new System.Drawing.Point(628, 236);
+            this.pass_ql_text.Location = new System.Drawing.Point(625, 258);
             this.pass_ql_text.Name = "pass_ql_text";
             this.pass_ql_text.Size = new System.Drawing.Size(233, 28);
             this.pass_ql_text.TabIndex = 1;
@@ -535,7 +537,7 @@ namespace HTQ_thi
             // 
             this.user_ql_text.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.user_ql_text.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.user_ql_text.Location = new System.Drawing.Point(628, 190);
+            this.user_ql_text.Location = new System.Drawing.Point(625, 212);
             this.user_ql_text.Name = "user_ql_text";
             this.user_ql_text.Size = new System.Drawing.Size(232, 28);
             this.user_ql_text.TabIndex = 0;
@@ -545,7 +547,7 @@ namespace HTQ_thi
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.Location = new System.Drawing.Point(499, 239);
+            this.label4.Location = new System.Drawing.Point(496, 261);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 21);
             this.label4.TabIndex = 5;
@@ -556,11 +558,22 @@ namespace HTQ_thi
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(499, 193);
+            this.label5.Location = new System.Drawing.Point(496, 215);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(116, 21);
             this.label5.TabIndex = 6;
             this.label5.Text = "Tên Đăng Nhập";
+            // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label6.Location = new System.Drawing.Point(407, 131);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(546, 35);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Quản Lí Cần Đăng Nhập Để Quản Lí Nhân Viên";
             // 
             // Quanly
             // 
@@ -643,5 +656,6 @@ namespace HTQ_thi
         private System.Windows.Forms.TextBox user_ql_text;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }

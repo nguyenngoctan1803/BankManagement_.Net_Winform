@@ -78,7 +78,7 @@ namespace HTQ_thi
             loaitk_cbb.DisplayMember = "name_ltk";
             loaitk_cbb.ValueMember = "id_ltk";
             loaitk_cbb.DataSource = dt;
-
+            loaitk_cbb.Text = "";
         }
         private void change_typeofdata_loaigd(DataTable dt)
         {

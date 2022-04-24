@@ -74,6 +74,7 @@ namespace HTQ_thi
             this.user_nv_text = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvgiaodich)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -180,13 +181,13 @@ namespace HTQ_thi
             // 
             this.label5.AutoSize = true;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(563, 366);
+            this.label5.Font = new System.Drawing.Font("Calibri", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label5.Location = new System.Drawing.Point(506, 364);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(283, 24);
+            this.label5.Size = new System.Drawing.Size(336, 29);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Lịch Sủ Giao Dịch Của Chi Nhánh";
+            this.label5.Text = "Lịch Sử Giao Dịch Của Chi Nhánh";
             // 
             // sotien_text
             // 
@@ -501,6 +502,7 @@ namespace HTQ_thi
             this.login_pnl.Controls.Add(this.pass_nv_text);
             this.login_pnl.Controls.Add(this.user_nv_text);
             this.login_pnl.Controls.Add(this.label1);
+            this.login_pnl.Controls.Add(this.label17);
             this.login_pnl.Controls.Add(this.label11);
             this.login_pnl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.login_pnl.Location = new System.Drawing.Point(0, 0);
@@ -558,7 +560,7 @@ namespace HTQ_thi
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(492, 278);
+            this.label1.Location = new System.Drawing.Point(488, 278);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 21);
             this.label1.TabIndex = 17;
@@ -569,11 +571,22 @@ namespace HTQ_thi
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label11.Location = new System.Drawing.Point(492, 232);
+            this.label11.Location = new System.Drawing.Point(488, 232);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(116, 21);
             this.label11.TabIndex = 18;
             this.label11.Text = "Tên Đăng Nhập";
+            // 
+            // label17
+            // 
+            this.label17.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label17.Location = new System.Drawing.Point(386, 136);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(601, 35);
+            this.label17.TabIndex = 18;
+            this.label17.Text = "Nhân Viên Cần Đăng Nhập Để Thực Hiện Giao Dịch";
             // 
             // Giaodich
             // 
@@ -653,5 +666,6 @@ namespace HTQ_thi
         private System.Windows.Forms.TextBox user_nv_text;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label17;
     }
 }

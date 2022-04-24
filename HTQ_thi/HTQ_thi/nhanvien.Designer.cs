@@ -72,6 +72,7 @@ namespace HTQ_thi
             this.user_nv_text = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvntaikhoan)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -359,7 +360,7 @@ namespace HTQ_thi
             this.xóaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1369, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(1369, 28);
             this.menuStrip1.TabIndex = 34;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -367,21 +368,21 @@ namespace HTQ_thi
             // thêmToolStripMenuItem
             // 
             this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
-            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(60, 26);
+            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
             this.thêmToolStripMenuItem.Text = "Thêm";
             this.thêmToolStripMenuItem.Click += new System.EventHandler(this.thêmToolStripMenuItem_Click);
             // 
             // sửaToolStripMenuItem
             // 
             this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
-            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(52, 26);
+            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
             this.sửaToolStripMenuItem.Text = "Sửa ";
             this.sửaToolStripMenuItem.Click += new System.EventHandler(this.sửaToolStripMenuItem_Click);
             // 
             // xóaToolStripMenuItem
             // 
             this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
-            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(49, 26);
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
             this.xóaToolStripMenuItem.Text = "Xóa";
             this.xóaToolStripMenuItem.Click += new System.EventHandler(this.xóaToolStripMenuItem_Click);
             // 
@@ -461,11 +462,12 @@ namespace HTQ_thi
             this.login_pnl.Controls.Add(this.pass_nv_text);
             this.login_pnl.Controls.Add(this.user_nv_text);
             this.login_pnl.Controls.Add(this.label2);
+            this.login_pnl.Controls.Add(this.label4);
             this.login_pnl.Controls.Add(this.label1);
             this.login_pnl.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.login_pnl.Location = new System.Drawing.Point(0, 30);
+            this.login_pnl.Location = new System.Drawing.Point(0, 28);
             this.login_pnl.Name = "login_pnl";
-            this.login_pnl.Size = new System.Drawing.Size(1369, 703);
+            this.login_pnl.Size = new System.Drawing.Size(1369, 705);
             this.login_pnl.TabIndex = 40;
             this.login_pnl.Paint += new System.Windows.Forms.PaintEventHandler(this.login_pnl_Paint);
             // 
@@ -475,7 +477,7 @@ namespace HTQ_thi
             this.error_lb.AutoSize = true;
             this.error_lb.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.error_lb.ForeColor = System.Drawing.Color.Red;
-            this.error_lb.Location = new System.Drawing.Point(595, 311);
+            this.error_lb.Location = new System.Drawing.Point(570, 317);
             this.error_lb.Name = "error_lb";
             this.error_lb.Size = new System.Drawing.Size(243, 21);
             this.error_lb.TabIndex = 4;
@@ -488,7 +490,7 @@ namespace HTQ_thi
             this.login_nv_btn.BackColor = System.Drawing.Color.DarkTurquoise;
             this.login_nv_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.login_nv_btn.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.login_nv_btn.Location = new System.Drawing.Point(637, 340);
+            this.login_nv_btn.Location = new System.Drawing.Point(612, 346);
             this.login_nv_btn.Name = "login_nv_btn";
             this.login_nv_btn.Size = new System.Drawing.Size(163, 34);
             this.login_nv_btn.TabIndex = 2;
@@ -500,7 +502,7 @@ namespace HTQ_thi
             // 
             this.pass_nv_text.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pass_nv_text.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.pass_nv_text.Location = new System.Drawing.Point(660, 254);
+            this.pass_nv_text.Location = new System.Drawing.Point(635, 260);
             this.pass_nv_text.Name = "pass_nv_text";
             this.pass_nv_text.Size = new System.Drawing.Size(229, 28);
             this.pass_nv_text.TabIndex = 1;
@@ -509,7 +511,7 @@ namespace HTQ_thi
             // 
             this.user_nv_text.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.user_nv_text.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.user_nv_text.Location = new System.Drawing.Point(660, 208);
+            this.user_nv_text.Location = new System.Drawing.Point(635, 214);
             this.user_nv_text.Name = "user_nv_text";
             this.user_nv_text.Size = new System.Drawing.Size(229, 28);
             this.user_nv_text.TabIndex = 0;
@@ -519,7 +521,7 @@ namespace HTQ_thi
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label2.Location = new System.Drawing.Point(532, 258);
+            this.label2.Location = new System.Drawing.Point(507, 264);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 21);
             this.label2.TabIndex = 0;
@@ -530,11 +532,22 @@ namespace HTQ_thi
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(532, 211);
+            this.label1.Location = new System.Drawing.Point(507, 217);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Tên Đăng Nhập";
+            // 
+            // label4
+            // 
+            this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Calibri", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label4.Location = new System.Drawing.Point(404, 127);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(571, 35);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Nhân Viên Cần Đăng Nhập Để Quản Lí Tài Khoản";
             // 
             // nhanvien
             // 
@@ -613,5 +626,6 @@ namespace HTQ_thi
         private System.Windows.Forms.TextBox user_nv_text;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
     }
 }
