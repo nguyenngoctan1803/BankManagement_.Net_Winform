@@ -115,18 +115,6 @@
     <Compile Include="Quanly.Designer.cs">
       <DependentUpon>Quanly.cs</DependentUpon>
     </Compile>
-    <Compile Include="taikhoanthanhtoan.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="taikhoanthanhtoan.Designer.cs">
-      <DependentUpon>taikhoanthanhtoan.cs</DependentUpon>
-    </Compile>
-    <Compile Include="taikhoantietkiem.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="taikhoantietkiem.Designer.cs">
-      <DependentUpon>taikhoantietkiem.cs</DependentUpon>
-    </Compile>
     <Compile Include="thongke.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -155,11 +143,11 @@
     <EmbeddedResource Include="Quanly.resx">
       <DependentUpon>Quanly.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="taikhoanthanhtoan.resx">
-      <DependentUpon>taikhoanthanhtoan.cs</DependentUpon>
+    <EmbeddedResource Include="thongke.co.resx">
+      <DependentUpon>thongke.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="taikhoantietkiem.resx">
-      <DependentUpon>taikhoantietkiem.cs</DependentUpon>
+    <EmbeddedResource Include="thongke.en-GB.resx">
+      <DependentUpon>thongke.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="thongke.resx">
       <DependentUpon>thongke.cs</DependentUpon>

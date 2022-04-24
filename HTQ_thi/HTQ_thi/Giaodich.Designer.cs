@@ -82,6 +82,7 @@ namespace HTQ_thi
             // 
             // branch_text
             // 
+            this.branch_text.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.branch_text.AutoSize = true;
             this.branch_text.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.branch_text.Location = new System.Drawing.Point(13, 9);
@@ -109,7 +110,7 @@ namespace HTQ_thi
             // loaitk_cbb
             // 
             this.loaitk_cbb.FormattingEnabled = true;
-            this.loaitk_cbb.Location = new System.Drawing.Point(166, 110);
+            this.loaitk_cbb.Location = new System.Drawing.Point(191, 110);
             this.loaitk_cbb.Margin = new System.Windows.Forms.Padding(4);
             this.loaitk_cbb.Name = "loaitk_cbb";
             this.loaitk_cbb.Size = new System.Drawing.Size(248, 29);
@@ -122,7 +123,7 @@ namespace HTQ_thi
             this.dgvgiaodich.AllowUserToDeleteRows = false;
             this.dgvgiaodich.AllowUserToResizeColumns = false;
             this.dgvgiaodich.AllowUserToResizeRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.LightGray;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             dataGridViewCellStyle1.Format = "g";
             dataGridViewCellStyle1.NullValue = null;
             this.dgvgiaodich.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
@@ -130,6 +131,7 @@ namespace HTQ_thi
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvgiaodich.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvgiaodich.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dgvgiaodich.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
@@ -141,7 +143,7 @@ namespace HTQ_thi
             this.dgvgiaodich.ColumnHeadersHeight = 29;
             this.dgvgiaodich.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvgiaodich.EnableHeadersVisualStyles = false;
-            this.dgvgiaodich.Location = new System.Drawing.Point(16, 362);
+            this.dgvgiaodich.Location = new System.Drawing.Point(16, 403);
             this.dgvgiaodich.Margin = new System.Windows.Forms.Padding(4);
             this.dgvgiaodich.MultiSelect = false;
             this.dgvgiaodich.Name = "dgvgiaodich";
@@ -151,7 +153,7 @@ namespace HTQ_thi
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.dgvgiaodich.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.dgvgiaodich.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvgiaodich.Size = new System.Drawing.Size(1270, 271);
+            this.dgvgiaodich.Size = new System.Drawing.Size(1339, 347);
             this.dgvgiaodich.TabIndex = 6;
             // 
             // label2
@@ -178,17 +180,17 @@ namespace HTQ_thi
             // 
             this.label5.AutoSize = true;
             this.label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.label5.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(574, 337);
+            this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.label5.Location = new System.Drawing.Point(563, 366);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(129, 21);
+            this.label5.Size = new System.Drawing.Size(283, 24);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Lịch Sủ Giao Dịch";
+            this.label5.Text = "Lịch Sủ Giao Dịch Của Chi Nhánh";
             // 
             // sotien_text
             // 
-            this.sotien_text.Location = new System.Drawing.Point(166, 171);
+            this.sotien_text.Location = new System.Drawing.Point(191, 171);
             this.sotien_text.Margin = new System.Windows.Forms.Padding(4);
             this.sotien_text.Name = "sotien_text";
             this.sotien_text.Size = new System.Drawing.Size(248, 28);
@@ -206,6 +208,8 @@ namespace HTQ_thi
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.ruttien_btn);
             this.groupBox1.Controls.Add(this.naptien_btn);
             this.groupBox1.Controls.Add(this.label6);
@@ -215,7 +219,7 @@ namespace HTQ_thi
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.groupBox1.Location = new System.Drawing.Point(28, 42);
+            this.groupBox1.Location = new System.Drawing.Point(77, 60);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
@@ -240,7 +244,7 @@ namespace HTQ_thi
             // 
             // sotk_text
             // 
-            this.sotk_text.Location = new System.Drawing.Point(166, 51);
+            this.sotk_text.Location = new System.Drawing.Point(191, 51);
             this.sotk_text.Margin = new System.Windows.Forms.Padding(4);
             this.sotk_text.Name = "sotk_text";
             this.sotk_text.Size = new System.Drawing.Size(248, 28);
@@ -249,6 +253,8 @@ namespace HTQ_thi
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.label12);
@@ -268,7 +274,7 @@ namespace HTQ_thi
             this.groupBox2.Controls.Add(this.diachi_text);
             this.groupBox2.Controls.Add(this.name_text);
             this.groupBox2.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.groupBox2.Location = new System.Drawing.Point(533, 42);
+            this.groupBox2.Location = new System.Drawing.Point(567, 60);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
@@ -441,20 +447,22 @@ namespace HTQ_thi
             // 
             // chinhanhGD_cbb
             // 
+            this.chinhanhGD_cbb.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.chinhanhGD_cbb.BackColor = System.Drawing.Color.CadetBlue;
             this.chinhanhGD_cbb.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.chinhanhGD_cbb.FormattingEnabled = true;
             this.chinhanhGD_cbb.Location = new System.Drawing.Point(105, 6);
             this.chinhanhGD_cbb.Name = "chinhanhGD_cbb";
-            this.chinhanhGD_cbb.Size = new System.Drawing.Size(167, 29);
+            this.chinhanhGD_cbb.Size = new System.Drawing.Size(210, 29);
             this.chinhanhGD_cbb.TabIndex = 15;
             this.chinhanhGD_cbb.SelectedIndexChanged += new System.EventHandler(this.chinhanhGD_cbb_SelectedIndexChanged);
             // 
             // label16
             // 
+            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label16.Location = new System.Drawing.Point(278, 9);
+            this.label16.Location = new System.Drawing.Point(326, 9);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(58, 21);
             this.label16.TabIndex = 17;
@@ -462,9 +470,10 @@ namespace HTQ_thi
             // 
             // ma_nv_lb
             // 
+            this.ma_nv_lb.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ma_nv_lb.AutoSize = true;
             this.ma_nv_lb.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.ma_nv_lb.Location = new System.Drawing.Point(342, 9);
+            this.ma_nv_lb.Location = new System.Drawing.Point(399, 9);
             this.ma_nv_lb.Name = "ma_nv_lb";
             this.ma_nv_lb.Size = new System.Drawing.Size(205, 21);
             this.ma_nv_lb.TabIndex = 18;
@@ -472,13 +481,14 @@ namespace HTQ_thi
             // 
             // logout_btn
             // 
+            this.logout_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.logout_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.logout_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logout_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.logout_btn.ForeColor = System.Drawing.Color.Transparent;
-            this.logout_btn.Location = new System.Drawing.Point(1169, 6);
+            this.logout_btn.Location = new System.Drawing.Point(1238, 6);
             this.logout_btn.Name = "logout_btn";
-            this.logout_btn.Size = new System.Drawing.Size(117, 29);
+            this.logout_btn.Size = new System.Drawing.Size(117, 35);
             this.logout_btn.TabIndex = 19;
             this.logout_btn.Text = "Đăng Xuất";
             this.logout_btn.UseVisualStyleBackColor = true;
@@ -495,7 +505,7 @@ namespace HTQ_thi
             this.login_pnl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.login_pnl.Location = new System.Drawing.Point(0, 0);
             this.login_pnl.Name = "login_pnl";
-            this.login_pnl.Size = new System.Drawing.Size(1299, 633);
+            this.login_pnl.Size = new System.Drawing.Size(1368, 750);
             this.login_pnl.TabIndex = 20;
             // 
             // error_lb
@@ -504,7 +514,7 @@ namespace HTQ_thi
             this.error_lb.AutoSize = true;
             this.error_lb.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.error_lb.ForeColor = System.Drawing.Color.Red;
-            this.error_lb.Location = new System.Drawing.Point(529, 274);
+            this.error_lb.Location = new System.Drawing.Point(572, 333);
             this.error_lb.Name = "error_lb";
             this.error_lb.Size = new System.Drawing.Size(243, 21);
             this.error_lb.TabIndex = 22;
@@ -517,7 +527,7 @@ namespace HTQ_thi
             this.login_nv_btn.BackColor = System.Drawing.Color.DarkTurquoise;
             this.login_nv_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.login_nv_btn.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.login_nv_btn.Location = new System.Drawing.Point(578, 302);
+            this.login_nv_btn.Location = new System.Drawing.Point(621, 361);
             this.login_nv_btn.Name = "login_nv_btn";
             this.login_nv_btn.Size = new System.Drawing.Size(149, 32);
             this.login_nv_btn.TabIndex = 2;
@@ -529,7 +539,7 @@ namespace HTQ_thi
             // 
             this.pass_nv_text.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pass_nv_text.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.pass_nv_text.Location = new System.Drawing.Point(579, 216);
+            this.pass_nv_text.Location = new System.Drawing.Point(622, 275);
             this.pass_nv_text.Name = "pass_nv_text";
             this.pass_nv_text.Size = new System.Drawing.Size(236, 28);
             this.pass_nv_text.TabIndex = 1;
@@ -538,7 +548,7 @@ namespace HTQ_thi
             // 
             this.user_nv_text.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.user_nv_text.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.user_nv_text.Location = new System.Drawing.Point(579, 170);
+            this.user_nv_text.Location = new System.Drawing.Point(622, 229);
             this.user_nv_text.Name = "user_nv_text";
             this.user_nv_text.Size = new System.Drawing.Size(236, 28);
             this.user_nv_text.TabIndex = 0;
@@ -548,7 +558,7 @@ namespace HTQ_thi
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(449, 219);
+            this.label1.Location = new System.Drawing.Point(492, 278);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(78, 21);
             this.label1.TabIndex = 17;
@@ -559,7 +569,7 @@ namespace HTQ_thi
             this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label11.Location = new System.Drawing.Point(449, 173);
+            this.label11.Location = new System.Drawing.Point(492, 232);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(116, 21);
             this.label11.TabIndex = 18;
@@ -570,7 +580,7 @@ namespace HTQ_thi
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(1299, 633);
+            this.ClientSize = new System.Drawing.Size(1368, 750);
             this.Controls.Add(this.login_pnl);
             this.Controls.Add(this.logout_btn);
             this.Controls.Add(this.ma_nv_lb);
@@ -581,7 +591,9 @@ namespace HTQ_thi
             this.Controls.Add(this.label5);
             this.Controls.Add(this.dgvgiaodich);
             this.Controls.Add(this.branch_text);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "Giaodich";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Giaodich";

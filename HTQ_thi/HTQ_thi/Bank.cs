@@ -41,21 +41,7 @@ namespace HTQ_thi
             this.Show();
         }
 
-        private void tàiKhoảnToánToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            taikhoanthanhtoan tktt = new taikhoanthanhtoan();
-            this.Hide();
-            tktt.ShowDialog();
-            this.Show();
-        }
-
-        private void tàiKhoảnTiếtKiệnToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            taikhoantietkiem tktk = new taikhoantietkiem();
-            this.Hide();
-            tktk.ShowDialog();
-            this.Show();
-        }
+      
 
         private void thốngKêToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -65,7 +51,7 @@ namespace HTQ_thi
             this.Show();
         }
 
-        private void tàiKhoảnNợToolStripMenuItem_Click(object sender, EventArgs e)
+        private void Bank_Load(object sender, EventArgs e)
         {
 
         }

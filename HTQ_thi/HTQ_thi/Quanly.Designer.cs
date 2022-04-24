@@ -29,9 +29,9 @@ namespace HTQ_thi
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.search_pnl = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
             this.key_search_text = new System.Windows.Forms.TextBox();
@@ -83,12 +83,13 @@ namespace HTQ_thi
             // 
             // search_pnl
             // 
+            this.search_pnl.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.search_pnl.Controls.Add(this.label15);
             this.search_pnl.Controls.Add(this.key_search_text);
             this.search_pnl.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.search_pnl.Location = new System.Drawing.Point(444, 41);
+            this.search_pnl.Location = new System.Drawing.Point(477, 63);
             this.search_pnl.Name = "search_pnl";
-            this.search_pnl.Size = new System.Drawing.Size(396, 55);
+            this.search_pnl.Size = new System.Drawing.Size(430, 55);
             this.search_pnl.TabIndex = 39;
             // 
             // label15
@@ -105,7 +106,7 @@ namespace HTQ_thi
             this.key_search_text.ForeColor = System.Drawing.Color.Gray;
             this.key_search_text.Location = new System.Drawing.Point(117, 11);
             this.key_search_text.Name = "key_search_text";
-            this.key_search_text.Size = new System.Drawing.Size(265, 28);
+            this.key_search_text.Size = new System.Drawing.Size(296, 28);
             this.key_search_text.TabIndex = 34;
             this.key_search_text.Text = "Tìm kiếm theo tên, chi nhánh";
             this.key_search_text.Click += new System.EventHandler(this.key_search_text_Click);
@@ -113,6 +114,7 @@ namespace HTQ_thi
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.ngaysinh_dtp);
             this.groupBox1.Controls.Add(this.chinhanhTK_cbb);
@@ -136,11 +138,11 @@ namespace HTQ_thi
             this.groupBox1.Controls.Add(this.cmnd_text);
             this.groupBox1.Controls.Add(this.sdt_text);
             this.groupBox1.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.groupBox1.Location = new System.Drawing.Point(110, 91);
+            this.groupBox1.Location = new System.Drawing.Point(117, 147);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(1067, 297);
+            this.groupBox1.Size = new System.Drawing.Size(1141, 297);
             this.groupBox1.TabIndex = 37;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông tin nhân viên";
@@ -151,15 +153,15 @@ namespace HTQ_thi
             this.ngaysinh_dtp.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.ngaysinh_dtp.Location = new System.Drawing.Point(269, 192);
             this.ngaysinh_dtp.Name = "ngaysinh_dtp";
-            this.ngaysinh_dtp.Size = new System.Drawing.Size(202, 28);
+            this.ngaysinh_dtp.Size = new System.Drawing.Size(267, 28);
             this.ngaysinh_dtp.TabIndex = 39;
             // 
             // chinhanhTK_cbb
             // 
             this.chinhanhTK_cbb.FormattingEnabled = true;
-            this.chinhanhTK_cbb.Location = new System.Drawing.Point(700, 190);
+            this.chinhanhTK_cbb.Location = new System.Drawing.Point(736, 190);
             this.chinhanhTK_cbb.Name = "chinhanhTK_cbb";
-            this.chinhanhTK_cbb.Size = new System.Drawing.Size(227, 29);
+            this.chinhanhTK_cbb.Size = new System.Drawing.Size(269, 29);
             this.chinhanhTK_cbb.TabIndex = 38;
             this.chinhanhTK_cbb.SelectedIndexChanged += new System.EventHandler(this.chinhanhTK_cbb_SelectedIndexChanged);
             // 
@@ -168,9 +170,9 @@ namespace HTQ_thi
             this.tsx_btn.BackColor = System.Drawing.Color.Green;
             this.tsx_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.tsx_btn.ForeColor = System.Drawing.Color.Transparent;
-            this.tsx_btn.Location = new System.Drawing.Point(396, 247);
+            this.tsx_btn.Location = new System.Drawing.Point(451, 240);
             this.tsx_btn.Name = "tsx_btn";
-            this.tsx_btn.Size = new System.Drawing.Size(264, 50);
+            this.tsx_btn.Size = new System.Drawing.Size(264, 41);
             this.tsx_btn.TabIndex = 0;
             this.tsx_btn.Text = "Thêm Nhân Viên";
             this.tsx_btn.UseVisualStyleBackColor = false;
@@ -180,7 +182,7 @@ namespace HTQ_thi
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(140, 151);
+            this.label14.Location = new System.Drawing.Point(133, 151);
             this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(60, 21);
@@ -190,7 +192,7 @@ namespace HTQ_thi
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(140, 192);
+            this.label13.Location = new System.Drawing.Point(133, 192);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(78, 21);
@@ -200,7 +202,7 @@ namespace HTQ_thi
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(603, 65);
+            this.label12.Location = new System.Drawing.Point(639, 65);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(47, 21);
@@ -210,7 +212,7 @@ namespace HTQ_thi
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(140, 65);
+            this.label2.Location = new System.Drawing.Point(133, 65);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 21);
@@ -220,7 +222,7 @@ namespace HTQ_thi
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(140, 26);
+            this.label1.Location = new System.Drawing.Point(133, 26);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(116, 21);
@@ -230,7 +232,7 @@ namespace HTQ_thi
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(603, 26);
+            this.label11.Location = new System.Drawing.Point(639, 26);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(74, 21);
@@ -240,7 +242,7 @@ namespace HTQ_thi
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(603, 193);
+            this.label10.Location = new System.Drawing.Point(639, 193);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(80, 21);
@@ -250,7 +252,7 @@ namespace HTQ_thi
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(140, 107);
+            this.label3.Location = new System.Drawing.Point(133, 107);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 21);
@@ -260,7 +262,7 @@ namespace HTQ_thi
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(603, 107);
+            this.label9.Location = new System.Drawing.Point(639, 107);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(57, 21);
@@ -270,7 +272,7 @@ namespace HTQ_thi
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(604, 151);
+            this.label8.Location = new System.Drawing.Point(640, 151);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(56, 21);
@@ -282,15 +284,15 @@ namespace HTQ_thi
             this.manv_text.Location = new System.Drawing.Point(269, 104);
             this.manv_text.Margin = new System.Windows.Forms.Padding(4);
             this.manv_text.Name = "manv_text";
-            this.manv_text.Size = new System.Drawing.Size(202, 28);
+            this.manv_text.Size = new System.Drawing.Size(267, 28);
             this.manv_text.TabIndex = 1;
             // 
             // diachi_text
             // 
-            this.diachi_text.Location = new System.Drawing.Point(700, 104);
+            this.diachi_text.Location = new System.Drawing.Point(736, 104);
             this.diachi_text.Margin = new System.Windows.Forms.Padding(4);
             this.diachi_text.Name = "diachi_text";
-            this.diachi_text.Size = new System.Drawing.Size(227, 28);
+            this.diachi_text.Size = new System.Drawing.Size(269, 28);
             this.diachi_text.TabIndex = 1;
             // 
             // name_text
@@ -298,7 +300,7 @@ namespace HTQ_thi
             this.name_text.Location = new System.Drawing.Point(269, 148);
             this.name_text.Margin = new System.Windows.Forms.Padding(4);
             this.name_text.Name = "name_text";
-            this.name_text.Size = new System.Drawing.Size(202, 28);
+            this.name_text.Size = new System.Drawing.Size(267, 28);
             this.name_text.TabIndex = 7;
             // 
             // pass_nv_text
@@ -306,7 +308,7 @@ namespace HTQ_thi
             this.pass_nv_text.Location = new System.Drawing.Point(269, 62);
             this.pass_nv_text.Margin = new System.Windows.Forms.Padding(4);
             this.pass_nv_text.Name = "pass_nv_text";
-            this.pass_nv_text.Size = new System.Drawing.Size(202, 28);
+            this.pass_nv_text.Size = new System.Drawing.Size(267, 28);
             this.pass_nv_text.TabIndex = 24;
             // 
             // user_nv_text
@@ -314,31 +316,31 @@ namespace HTQ_thi
             this.user_nv_text.Location = new System.Drawing.Point(269, 23);
             this.user_nv_text.Margin = new System.Windows.Forms.Padding(4);
             this.user_nv_text.Name = "user_nv_text";
-            this.user_nv_text.Size = new System.Drawing.Size(202, 28);
+            this.user_nv_text.Size = new System.Drawing.Size(267, 28);
             this.user_nv_text.TabIndex = 24;
             // 
             // gioitinh_text
             // 
-            this.gioitinh_text.Location = new System.Drawing.Point(700, 23);
+            this.gioitinh_text.Location = new System.Drawing.Point(736, 23);
             this.gioitinh_text.Margin = new System.Windows.Forms.Padding(4);
             this.gioitinh_text.Name = "gioitinh_text";
-            this.gioitinh_text.Size = new System.Drawing.Size(227, 28);
+            this.gioitinh_text.Size = new System.Drawing.Size(269, 28);
             this.gioitinh_text.TabIndex = 24;
             // 
             // cmnd_text
             // 
-            this.cmnd_text.Location = new System.Drawing.Point(700, 148);
+            this.cmnd_text.Location = new System.Drawing.Point(736, 148);
             this.cmnd_text.Margin = new System.Windows.Forms.Padding(4);
             this.cmnd_text.Name = "cmnd_text";
-            this.cmnd_text.Size = new System.Drawing.Size(227, 28);
+            this.cmnd_text.Size = new System.Drawing.Size(269, 28);
             this.cmnd_text.TabIndex = 23;
             // 
             // sdt_text
             // 
-            this.sdt_text.Location = new System.Drawing.Point(700, 62);
+            this.sdt_text.Location = new System.Drawing.Point(736, 62);
             this.sdt_text.Margin = new System.Windows.Forms.Padding(4);
             this.sdt_text.Name = "sdt_text";
-            this.sdt_text.Size = new System.Drawing.Size(227, 28);
+            this.sdt_text.Size = new System.Drawing.Size(269, 28);
             this.sdt_text.TabIndex = 22;
             // 
             // dgvnnhanvien
@@ -347,35 +349,35 @@ namespace HTQ_thi
             this.dgvnnhanvien.AllowUserToDeleteRows = false;
             this.dgvnnhanvien.AllowUserToResizeColumns = false;
             this.dgvnnhanvien.AllowUserToResizeRows = false;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.LightGray;
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.dgvnnhanvien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.dgvnnhanvien.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvnnhanvien.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvnnhanvien.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvnnhanvien.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dgvnnhanvien.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Sunken;
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvnnhanvien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvnnhanvien.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvnnhanvien.ColumnHeadersHeight = 29;
             this.dgvnnhanvien.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dgvnnhanvien.Location = new System.Drawing.Point(12, 396);
+            this.dgvnnhanvien.Location = new System.Drawing.Point(12, 479);
             this.dgvnnhanvien.Margin = new System.Windows.Forms.Padding(4);
             this.dgvnnhanvien.MultiSelect = false;
             this.dgvnnhanvien.Name = "dgvnnhanvien";
             this.dgvnnhanvien.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Sunken;
             this.dgvnnhanvien.RowHeadersVisible = false;
             this.dgvnnhanvien.RowHeadersWidth = 51;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.dgvnnhanvien.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
+            this.dgvnnhanvien.RowsDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvnnhanvien.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvnnhanvien.Size = new System.Drawing.Size(1264, 277);
+            this.dgvnnhanvien.Size = new System.Drawing.Size(1345, 277);
             this.dgvnnhanvien.TabIndex = 36;
             this.dgvnnhanvien.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvnnhanvien_CellClick);
             // 
@@ -389,7 +391,7 @@ namespace HTQ_thi
             this.xóaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1289, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(1370, 30);
             this.menuStrip1.TabIndex = 38;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -397,33 +399,34 @@ namespace HTQ_thi
             // thêmToolStripMenuItem
             // 
             this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
-            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(60, 24);
+            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(60, 26);
             this.thêmToolStripMenuItem.Text = "Thêm";
             this.thêmToolStripMenuItem.Click += new System.EventHandler(this.thêmToolStripMenuItem_Click);
             // 
             // sửaToolStripMenuItem
             // 
             this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
-            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(52, 24);
+            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(52, 26);
             this.sửaToolStripMenuItem.Text = "Sửa ";
             this.sửaToolStripMenuItem.Click += new System.EventHandler(this.sửaToolStripMenuItem_Click);
             // 
             // xóaToolStripMenuItem
             // 
             this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
-            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(49, 24);
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(49, 26);
             this.xóaToolStripMenuItem.Text = "Xóa";
             this.xóaToolStripMenuItem.Click += new System.EventHandler(this.xóaToolStripMenuItem_Click);
             // 
             // logout_btn
             // 
+            this.logout_btn.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.logout_btn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.logout_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logout_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.logout_btn.ForeColor = System.Drawing.Color.Transparent;
-            this.logout_btn.Location = new System.Drawing.Point(1160, 33);
+            this.logout_btn.Location = new System.Drawing.Point(1240, 36);
             this.logout_btn.Name = "logout_btn";
-            this.logout_btn.Size = new System.Drawing.Size(117, 29);
+            this.logout_btn.Size = new System.Drawing.Size(117, 34);
             this.logout_btn.TabIndex = 45;
             this.logout_btn.Text = "Đăng Xuất";
             this.logout_btn.UseVisualStyleBackColor = true;
@@ -431,9 +434,10 @@ namespace HTQ_thi
             // 
             // ma_ql_lb
             // 
+            this.ma_ql_lb.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.ma_ql_lb.AutoSize = true;
             this.ma_ql_lb.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.ma_ql_lb.Location = new System.Drawing.Point(334, 36);
+            this.ma_ql_lb.Location = new System.Drawing.Point(368, 36);
             this.ma_ql_lb.Name = "ma_ql_lb";
             this.ma_ql_lb.Size = new System.Drawing.Size(32, 21);
             this.ma_ql_lb.TabIndex = 44;
@@ -441,9 +445,10 @@ namespace HTQ_thi
             // 
             // label16
             // 
+            this.label16.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label16.Location = new System.Drawing.Point(270, 36);
+            this.label16.Location = new System.Drawing.Point(304, 36);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(56, 21);
             this.label16.TabIndex = 43;
@@ -451,17 +456,19 @@ namespace HTQ_thi
             // 
             // chinhanhQL_cbb
             // 
+            this.chinhanhQL_cbb.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.chinhanhQL_cbb.BackColor = System.Drawing.Color.CadetBlue;
             this.chinhanhQL_cbb.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.chinhanhQL_cbb.FormattingEnabled = true;
             this.chinhanhQL_cbb.Location = new System.Drawing.Point(97, 33);
             this.chinhanhQL_cbb.Name = "chinhanhQL_cbb";
-            this.chinhanhQL_cbb.Size = new System.Drawing.Size(167, 29);
+            this.chinhanhQL_cbb.Size = new System.Drawing.Size(199, 29);
             this.chinhanhQL_cbb.TabIndex = 42;
             this.chinhanhQL_cbb.SelectedIndexChanged += new System.EventHandler(this.chinhanhQL_cbb_SelectedIndexChanged);
             // 
             // branch_text
             // 
+            this.branch_text.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.branch_text.AutoSize = true;
             this.branch_text.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.branch_text.Location = new System.Drawing.Point(8, 36);
@@ -483,9 +490,9 @@ namespace HTQ_thi
             this.login_pnl.Controls.Add(this.label5);
             this.login_pnl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.login_pnl.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.login_pnl.Location = new System.Drawing.Point(0, 28);
+            this.login_pnl.Location = new System.Drawing.Point(0, 30);
             this.login_pnl.Name = "login_pnl";
-            this.login_pnl.Size = new System.Drawing.Size(1289, 643);
+            this.login_pnl.Size = new System.Drawing.Size(1370, 724);
             this.login_pnl.TabIndex = 46;
             // 
             // error_lb
@@ -494,7 +501,7 @@ namespace HTQ_thi
             this.error_lb.AutoSize = true;
             this.error_lb.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.error_lb.ForeColor = System.Drawing.Color.Red;
-            this.error_lb.Location = new System.Drawing.Point(525, 294);
+            this.error_lb.Location = new System.Drawing.Point(565, 303);
             this.error_lb.Name = "error_lb";
             this.error_lb.Size = new System.Drawing.Size(243, 21);
             this.error_lb.TabIndex = 10;
@@ -507,9 +514,9 @@ namespace HTQ_thi
             this.login_nv_btn.BackColor = System.Drawing.Color.DarkTurquoise;
             this.login_nv_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.login_nv_btn.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.login_nv_btn.Location = new System.Drawing.Point(577, 318);
+            this.login_nv_btn.Location = new System.Drawing.Point(617, 327);
             this.login_nv_btn.Name = "login_nv_btn";
-            this.login_nv_btn.Size = new System.Drawing.Size(136, 42);
+            this.login_nv_btn.Size = new System.Drawing.Size(164, 36);
             this.login_nv_btn.TabIndex = 2;
             this.login_nv_btn.Text = "Đăng Nhập";
             this.login_nv_btn.UseVisualStyleBackColor = false;
@@ -519,18 +526,18 @@ namespace HTQ_thi
             // 
             this.pass_ql_text.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pass_ql_text.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.pass_ql_text.Location = new System.Drawing.Point(588, 227);
+            this.pass_ql_text.Location = new System.Drawing.Point(628, 236);
             this.pass_ql_text.Name = "pass_ql_text";
-            this.pass_ql_text.Size = new System.Drawing.Size(210, 28);
+            this.pass_ql_text.Size = new System.Drawing.Size(233, 28);
             this.pass_ql_text.TabIndex = 1;
             // 
             // user_ql_text
             // 
             this.user_ql_text.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.user_ql_text.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.user_ql_text.Location = new System.Drawing.Point(588, 181);
+            this.user_ql_text.Location = new System.Drawing.Point(628, 190);
             this.user_ql_text.Name = "user_ql_text";
-            this.user_ql_text.Size = new System.Drawing.Size(209, 28);
+            this.user_ql_text.Size = new System.Drawing.Size(232, 28);
             this.user_ql_text.TabIndex = 0;
             // 
             // label4
@@ -538,7 +545,7 @@ namespace HTQ_thi
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label4.Location = new System.Drawing.Point(459, 230);
+            this.label4.Location = new System.Drawing.Point(499, 239);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(78, 21);
             this.label4.TabIndex = 5;
@@ -549,7 +556,7 @@ namespace HTQ_thi
             this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Calibri", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label5.Location = new System.Drawing.Point(459, 184);
+            this.label5.Location = new System.Drawing.Point(499, 193);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(116, 21);
             this.label5.TabIndex = 6;
@@ -560,7 +567,7 @@ namespace HTQ_thi
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.CadetBlue;
-            this.ClientSize = new System.Drawing.Size(1289, 671);
+            this.ClientSize = new System.Drawing.Size(1370, 754);
             this.Controls.Add(this.login_pnl);
             this.Controls.Add(this.logout_btn);
             this.Controls.Add(this.ma_ql_lb);
@@ -571,7 +578,9 @@ namespace HTQ_thi
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgvnnhanvien);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MaximizeBox = false;
             this.Name = "Quanly";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quanly";

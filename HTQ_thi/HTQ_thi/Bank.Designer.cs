@@ -105,6 +105,7 @@ namespace HTQ_thi
             this.Name = "Bank";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ngân Hàng";
+            this.Load += new System.EventHandler(this.Bank_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
